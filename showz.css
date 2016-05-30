@@ -1,0 +1,317 @@
+header, .content, footer {
+	width: 1050px;
+	margin: auto;
+}
+
+.nav {
+	border-radius:25px;
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	font:14px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	overflow: hidden;
+	background-color: orange;
+}
+
+.nav_submit {
+	border-radius:25px;
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	font:14px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	overflow: hidden;
+	background-color: white;
+}
+
+#nav_right{
+	float: right;
+	border: none;
+}
+
+#nav_right:last-child{
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+}
+
+.active
+{
+	color: orange;
+	background-color: midnightblue;
+}
+
+.nav li {
+	border-right: 1px solid #bbb;
+	float: left;
+}
+
+.nav_submit li {
+	border-right: 1px solid #bbb;
+	float: left;
+}
+
+#house {
+	display: block;
+	height: 16px;
+}
+
+.nav li a img:hover{
+	background-color: midnightblue;
+}
+.nav_submit li a img:hover{
+	background-color: black;
+}
+
+.nav li a {
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav_submit li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: orange;
+	background-color: midnightblue;
+}
+
+.nav_submit li a:hover {
+	color: white;
+	background-color: black;
+}
+
+.banner {
+	background-color: white;
+	padding: 25px 25px 25px 25px;
+	border-radius:25px;
+	margin-bottom:10px;
+}
+
+.banner_submit {
+	background-color: black;
+	padding: 25px 25px 25px 25px;
+	border-radius:25px;
+	margin-bottom:10px;
+}
+
+.foot {
+	clear: both;
+	color: blue;
+	border-radius:25px;
+	margin-top: 30px;
+	padding: 10px 10px 10px 10px;
+	font: 14px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+}
+
+#mc_embed_signup{
+	background: orange;
+	color: blue;
+	font: 14px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	width: 500px;
+	padding-right: 30px;
+	border-radius:25px;
+	float: right;
+}
+
+#company_info {
+	color: blue;
+	text-align: left;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	width: 460px;
+	margin-top: 30px;
+}
+
+#contact {
+	color: blue;
+	text-align: center;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	width: 490px;
+	margin-top: 30px;
+}
+
+#opps_info {
+	color: blue;
+	text-align: left;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	width: 470px;
+	float: right;
+}
+
+#opps_pic{
+	background: orange;
+	margin-top: 30px;
+	width: 500px;
+	border-radius:25px;
+	padding: 10px 5px 5px 5px;
+}
+
+#opps_pic img {
+	width: 490px;
+	border-radius: 25px;
+}
+
+#events_header {
+	color: blue;
+	text-align: left;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	margin-top: 30px;
+}
+
+#ev_intro {
+	margin-top: 25px;
+	width: 500px;
+}
+
+#ev_pic {
+	background: orange;
+	margin-top: 25px;
+	width: 500px;
+	border-radius:25px;
+	padding: 10px 5px 5px 5px;
+	float: right;
+}
+
+#ev_pic img{
+	width: 490px;
+	border-radius: 25px;
+}
+
+#ev_upcoming{
+	color: blue;
+	text-align: left;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	margin-top: 20px;
+}
+
+.ev_up_list {
+	margin-top: 25px;
+	width: 600px;
+}
+
+.ev_up_list img {
+	border-radius: 25px;
+	vertical-align: middle;
+	margin-top: 10px;
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+.ev_up_words {
+	margin-top: 111px;
+	margin-bottom: 10px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	width: 400px;
+	border-style: inset;
+	border-collapse: blue;
+	float: right;
+}
+
+hr {
+	clear: both;
+}
+
+#log_main{
+	text-align: center;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: red;
+	overflow: scroll;
+	width: 800px;
+	margin-top: 30px;
+	padding: 25px 25px 25px 25px;
+}
+
+.succ_pic_r {
+	background: orange;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin-top: 75px;
+	margin-right: 88px;
+	float: right;
+}
+
+.succ_pic_r img {
+	vertical-align: middle;
+	width: 300px;
+	border-radius: 50%;
+	padding: 25px 25px 25px 25px;
+}
+
+.succ_bio_l {
+	color: blue;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	width: 475px;
+	border-radius: 25px;
+	padding: 25px 25px 25px 25px;
+	margin-top: 25px;
+}
+
+.succ_pic_l {
+	background: orange;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin-top: 75px;
+	margin-left: 88px;
+}
+
+.succ_pic_l img {
+	vertical-align: middle;
+	width: 300px;
+	border-radius: 50%;
+	padding: 25px 25px 25px 25px;
+}
+
+.succ_bio_r {
+	color: blue;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	width: 475px;
+	border-radius: 25px;
+	padding: 25px 25px 25px 25px;
+	margin-top: 25px;
+	float: right;
+}
+
+
+#succ_intro, #circ, #news {
+	color: blue;
+	text-align: left;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	background-color: orange;
+	border-radius:25px;
+	padding: 25px 25px 25px 25px;
+	overflow: scroll;
+	width: 1000px;
+	margin-top: 30px;
+}
